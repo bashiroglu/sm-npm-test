@@ -1,3 +1,3 @@
-import useCountry from "./hooks/useCountry";
+import useCountry from "./hooks/use-countries";
 
 export { useCountry };
