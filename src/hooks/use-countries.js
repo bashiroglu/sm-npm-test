@@ -5,13 +5,13 @@ const useCountry = (name) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState();
 
-  useEffect(() => {
-    console.log("useCountry");
-    console.log("useCountry");
-    console.log("useCountry");
-    console.log("useCountry");
-    console.log("useCountry");
-  }, [name]);
+  console.log("useCountry");
+  console.log("useCountry");
+  console.log("useCountry");
+  console.log("useCountry");
+  console.log("useCountry");
+  
+  useEffect(() => {}, [name]);
 
   return {
     loading,
